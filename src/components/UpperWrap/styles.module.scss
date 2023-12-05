@@ -1,0 +1,42 @@
+.cardFirst {
+  height: 50px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  background: #EBEDEF;
+
+  .searchIcon {
+    color: gray;
+  }
+}
+
+.card {
+  display: flex;
+  padding: 5px 10px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100px;
+  width: 100%;
+  margin-top: 40px;
+  background: #EBEDEF;
+
+  .flag {
+    height: 25px;
+    width: 20px;
+  }
+
+  .avatarWrap {
+    height: 24px;
+    width: 24px;
+
+    .avatar {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+
+
