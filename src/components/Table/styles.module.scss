@@ -2,3 +2,20 @@
   height: 400px;
   width: 100%;
 }
+
+:global .MuiDataGrid-columnHeaders {
+  background-color: #F0F0F0;
+}
+
+:global .MuiDataGrid-cell {
+  text-align: center;
+}
+
+:global .MuiDataGrid-cell--withRenderer {
+  display: flex;
+  justify-content: space-between;
+  .MuiAvatar-root {
+    margin-right: 30px;
+    background-color: lightgrey;
+  }
+}

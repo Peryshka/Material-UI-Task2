@@ -26,23 +26,25 @@ export const columns = [
       field: 'verified',
       headerName:
         'Verified',
-      textAlign: 'center',
+      headerAlign: 'right',
       type:
         'number',
       width:
-        170,
+        100,
     }
     ,
     {
       field: 'status',
       headerName:
         'Status',
+      headerAlign:
+      'left',
       description:
         'This column has a value getter and is not sortable.',
       sortable:
         false,
       width:
-        160,
+        200,
     }
     ,
   ]
